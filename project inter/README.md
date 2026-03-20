@@ -1,36 +1,138 @@
-# Introduction
+📊 YouTube Trending Videos Analysis
+📌 Project Overview
 
-YouTube is the most popular and most used video platfrom in the world today. YouTube has a list of trending videos that is updated constantly. Here we will use Python with some packages like Pandas and Matplotlib to analyze a dataset that was collected over 205 days. For each of those days, the dataset contains data about the trending videos of that day. It contains data about more than 37,000 trending videos. We will analyze this data to get insights into YouTube trending videos, to see what is common between these videos. Those insights might also be used by people who want to increase popularity of their videos on YouTube.
+This project analyzes YouTube trending videos data to extract meaningful insights about video performance, audience preferences, and content trends. The goal is to understand what makes a video trend and identify key factors influencing views, likes, and engagement.
 
-The dataset that we will use is obtained from Kaggle. It contains data about trending videos for many countries. Here we will analyze trending videos in India.
+🎯 Objectives
 
-# Goals of the Analysis
+Analyze trending video data
 
-### We want to answer questions like:
+Identify patterns in views, likes, comments
 
-* How many views do our trending videos have? Do most of them have a large number of views? Is having a large number of views required for a video to become trending?
-* The same questions above, but applied to likes and comment count instead of views.
-* Which video remained the most on the trendin-videos list?
-* How many trending videos contain a fully-capitalized word in their titles?
-* What are the lengths of trending video titles? Is this length related to the video becoming trendy?
-* How are views, likes, dislikes, comment count, title length, and other attributes correlate with (relate to) each other? How are they connected?
-* What are the most common words in trending video titles?
-* Which YouTube channels have the largest number of trending videos?
-* Which video category (e.g. Entertainment, Gaming, Comedy, etc.) has the largest number of trending videos?
-* When were trending videos published? On which days of the week? at which times of the day?
+Find top categories and channels
 
-# Libraries Used
+Understand audience engagement
 
-* Pandas ( `pip install pandas` )
-* Numpy ( `pip install pandas` )
-* Matplotlib ( `pip install matplotlib` )
-* Seaborn ( `pip install seaborn` )
-* Wordcloud ( `pip install wordcloud` )
+Visualize trends using charts and dashboards
 
+📂 Dataset
 
-<div align="center">
-Show some ❤ by starring the repo if you liked the analysis.
-</div>
-<div align="center">
-I'll be constantly updating the datasets and analysis. Thank You.
-</div>
+The dataset contains information about trending YouTube videos, including:
+
+Video Title
+
+Channel Name
+
+Category
+
+Views
+
+Likes
+
+Comments
+
+Publish Time
+
+🛠 Tools & Technologies Used
+
+Python (Pandas, NumPy)
+
+Matplotlib / Seaborn (for visualization)
+
+Jupyter Notebook / VS Code
+
+Power BI (for dashboard - optional)
+
+🔍 Project Steps
+1. Data Collection
+
+Imported dataset (CSV file)
+
+2. Data Cleaning
+
+Removed missing values
+
+Converted data types
+
+Removed duplicates
+
+3. Exploratory Data Analysis (EDA)
+
+Top trending categories
+
+Most viewed videos
+
+Correlation between views, likes, comments
+
+4. Visualization
+
+Bar charts
+
+Line graphs
+
+Heatmaps
+
+5. Insights
+
+Which category trends most
+
+Engagement patterns
+
+Peak publishing time
+
+📈 Key Insights
+
+Entertainment and Music videos trend the most
+
+High likes = high engagement
+
+Videos published at peak hours get more views
+
+Some channels dominate trending lists
+
+📊 Dashboard (Optional)
+
+A Power BI dashboard is created to visualize:
+
+Sales-like metrics (Views, Likes)
+
+Category performance
+
+Monthly trends
+
+🚀 How to Run the Project
+
+Clone the repository
+
+git clone https://github.com/your-username/your-repo-name.git
+
+Open the project in VS Code or Jupyter Notebook
+
+Install required libraries
+
+pip install pandas numpy matplotlib seaborn
+
+Run the notebook
+
+📁 Project Structure
+YouTube-Trending-Videos-Analysis/
+│
+├── data/
+├── notebook/
+├── visuals/
+├── README.md
+💡 Future Improvements
+
+Add machine learning model to predict trending videos
+
+Use real-time YouTube API data
+
+Improve dashboard interactivity
+
+👩‍💻 Author
+
+Ishika Mishra
+
+📜 License
+
+This project is for educational purposes only.
